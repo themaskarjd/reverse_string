@@ -30,15 +30,19 @@ void reverse_string(char* start){
 
 int main(){
 
-  char a[] = "watermelon";
-  char b[] = "fleamarket";
+  //char a[] = "watermelon";
+  //char b[] = "fleamarket";
+ printf("enter ur string\n");
+ scanf("%s",&str);
+  //gdfhgfdhgdhgirgfvtftsdfsfsd
+ printf("original string\t %s ",str);
 
-  
-  reverse_string(a);
-  reverse_string(b);
+  //reverse_string(a);
+  reverse_string(str);
+  printf("\nreversed string\t %s \n",str);
 
-  printf("%s \n",a);
-  printf("%s \n\n",b);
+//  printf("%s \n",a);
+  //printf("%s \n\n",b);
 
   return 0;
 }
