@@ -34,7 +34,7 @@ int main(){
   //char b[] = "fleamarket";
  printf("enter ur string\n");
  scanf("%s",&str);
-  
+  //gdfhgfdhgdhgirgfvtftsdfsfsd
  printf("original string\t %s ",str);
 
   //reverse_string(a);
